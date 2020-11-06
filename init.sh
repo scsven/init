@@ -23,7 +23,7 @@ boot_time=$(date -d "$boot_time" +%s)
 
 if [ "${modify_time}" -gt "${boot_time}" ] ;
 then
-	echo "Inited."
+	echo "`date` Inited."
 	exit
 fi
 
